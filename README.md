@@ -44,3 +44,9 @@ The live end-to-end test used the Codex Apify MCP connection, build 0.2.6 on 16 
 - [Actor API](https://docs.apify.com/api/v2/actors-runs-post)
 
 This repository contains usage examples and recorded test output; it does not contain the Actor runtime or credentials. No open-source license is specified.
+
+## Reproduce the populated metadata demo
+
+Use [fixture-input.json](examples/fixture-input.json) with the same bounded settings above. This synthetic HTTPBin HTML fixture contains known Open Graph, Twitter Card and Product JSON-LD fields. The recorded [fixture-output.json](examples/fixture-output.json) shows `MOTLEY Fixture`, `og:title: Known OG`, `twitter:card: summary` and the Product object. Its duplicate fragment is skipped. This is a controlled self-test, not customer demand or a claim about example.com content.
+
+Example tasks: extract social card metadata from supplied URLs; export JSON-LD from public pages; collect CMS titles, descriptions and canonical URLs. Static HTML only, 1–3 URLs per run.

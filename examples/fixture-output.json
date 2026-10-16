@@ -1,0 +1,42 @@
+{
+  "version": "0.2.0",
+  "requested": 2,
+  "duplicates_skipped": 1,
+  "results": [
+    {
+      "url": "https://httpbin.org/base64/PHRpdGxlPk1PVExFWSBGaXh0dXJlPC90aXRsZT48bWV0YSBwcm9wZXJ0eT0ib2c6dGl0bGUiIGNvbnRlbnQ9Iktub3duIE9HIj48bWV0YSBuYW1lPSJ0d2l0dGVyOmNhcmQiIGNvbnRlbnQ9InN1bW1hcnkiPjxsaW5rIHJlbD0iY2Fub25pY2FsIiBocmVmPSJodHRwczovL2V4YW1wbGUuY29tL2Nhbm9uaWNhbCI+PHNjcmlwdCB0eXBlPSJhcHBsaWNhdGlvbi9sZCtqc29uIj57IkB0eXBlIjoiUHJvZHVjdCIsIm5hbWUiOiJGaXh0dXJlIn08L3NjcmlwdD4=",
+      "final_url": "https://httpbin.org/base64/PHRpdGxlPk1PVExFWSBGaXh0dXJlPC90aXRsZT48bWV0YSBwcm9wZXJ0eT0ib2c6dGl0bGUiIGNvbnRlbnQ9Iktub3duIE9HIj48bWV0YSBuYW1lPSJ0d2l0dGVyOmNhcmQiIGNvbnRlbnQ9InN1bW1hcnkiPjxsaW5rIHJlbD0iY2Fub25pY2FsIiBocmVmPSJodHRwczovL2V4YW1wbGUuY29tL2Nhbm9uaWNhbCI+PHNjcmlwdCB0eXBlPSJhcHBsaWNhdGlvbi9sZCtqc29uIj57IkB0eXBlIjoiUHJvZHVjdCIsIm5hbWUiOiJGaXh0dXJlIn08L3NjcmlwdD4=",
+      "status": "ok",
+      "bytes": 257,
+      "title": "MOTLEY Fixture",
+      "description": null,
+      "canonical": "https://example.com/canonical",
+      "open_graph": {
+        "og:title": [
+          "Known OG"
+        ]
+      },
+      "twitter": {
+        "twitter:card": [
+          "summary"
+        ]
+      },
+      "json_ld": [
+        {
+          "@type": "Product",
+          "name": "Fixture"
+        }
+      ],
+      "warnings": [],
+      "html_sha256": "980bb24d6daf29f258dc4baaa26e80f485413b5be8e1e627c1ed3e4195c24391",
+      "scope": "Static HTML metadata extraction; no JavaScript execution, schema validation or factual verification",
+      "result_key": "PAGE-ed24e9a882d7ebb96e2d150ad8933d227d2806407035f680bb1344f1abb0bbf0",
+      "charge_state": "disabled"
+    }
+  ],
+  "successful": 1,
+  "billing_enabled": false,
+  "confirmed_events": 0,
+  "stop_reason": null,
+  "unprocessed": 0
+}
