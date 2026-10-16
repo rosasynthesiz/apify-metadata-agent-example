@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "fetch-actor-details",
+    "arguments": {
+      "actor": "lightbarrer/public-html-metadata-private-test",
+      "output": {
+        "inputSchema": true,
+        "pricing": true
+      }
+    }
+  },
+  {
+    "tool": "call-actor",
+    "arguments": {
+      "actor": "lightbarrer/public-html-metadata-private-test",
+      "input": {
+        "urls": [
+          "https://example.com/"
+        ]
+      },
+      "callOptions": {
+        "memory": 128,
+        "timeout": 60,
+        "maxTotalChargeUsd": 0.01
+      },
+      "waitSecs": 30
+    }
+  },
+  {
+    "tool": "get-actor-run",
+    "arguments": {
+      "runId": "<returned runId>"
+    }
+  },
+  {
+    "tool": "get-dataset-items",
+    "arguments": {
+      "datasetId": "<returned datasetId>",
+      "limit": 3
+    }
+  },
+  {
+    "tool": "get-key-value-store-record",
+    "arguments": {
+      "keyValueStoreId": "<returned keyValueStoreId>",
+      "recordKey": "OUTPUT"
+    }
+  }
+]

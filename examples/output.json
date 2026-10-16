@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "requested": 1,
+  "duplicates_skipped": 0,
+  "results": [
+    {
+      "url": "https://example.com/",
+      "final_url": "https://example.com/",
+      "status": "ok",
+      "bytes": 577,
+      "title": "Example Domain",
+      "description": null,
+      "canonical": null,
+      "open_graph": {},
+      "twitter": {},
+      "json_ld": [],
+      "warnings": [],
+      "html_sha256": "25ddf2c883e0d1958ea971d279a7e4f0fd446724ee3db7db19dadabd4a62e484",
+      "scope": "Static HTML metadata extraction; no JavaScript execution, schema validation or factual verification",
+      "result_key": "PAGE-a7b784e3a01f8b21a185971614cd58cf74251e39b2d9ff0e9874ca65ac300691",
+      "charge_state": "disabled"
+    }
+  ],
+  "successful": 1,
+  "billing_enabled": false,
+  "confirmed_events": 0,
+  "stop_reason": null,
+  "unprocessed": 0
+}
