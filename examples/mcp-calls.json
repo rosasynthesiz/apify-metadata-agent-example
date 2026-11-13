@@ -2,7 +2,7 @@
   {
     "tool": "fetch-actor-details",
     "arguments": {
-      "actor": "lightbarrer/public-html-metadata-private-test",
+      "actor": "bold_borough/link-preview-metadata-extractor-open-graph-json-ld",
       "output": {
         "inputSchema": true,
         "pricing": true
@@ -12,7 +12,7 @@
   {
     "tool": "call-actor",
     "arguments": {
-      "actor": "lightbarrer/public-html-metadata-private-test",
+      "actor": "bold_borough/link-preview-metadata-extractor-open-graph-json-ld",
       "input": {
         "urls": [
           "https://example.com/"
