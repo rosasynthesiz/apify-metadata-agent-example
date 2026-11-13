@@ -2,7 +2,7 @@
 
 Get static page metadata as structured JSON: title, description, canonical URL, Open Graph, Twitter Card tags and JSON-LD.
 
-[Try the Apify Actor](https://apify.com/lightbarrer/public-html-metadata-private-test)
+[Try the Apify Actor](https://apify.com/bold_borough/link-preview-metadata-extractor-open-graph-json-ld)
 
 ## Pricing
 The current release has **no Actor service fee** and payment billing is OFF. Apify platform compute, transfer and storage charges may apply to the caller's account. This is not unlimited free hosting. A future paid release is not enabled.
@@ -23,7 +23,7 @@ See [full input](examples/input.json), [actual OUTPUT](examples/output.json), [a
 6. Check page `status`, `successful`, `unprocessed`, `billing_enabled` and `confirmed_events`.
 
 ### Copyable agent prompt
-Use Apify MCP to fetch details of lightbarrer/public-html-metadata-private-test. Run it once on https://example.com/ with memory 128 MB, timeout 60 sec, maxTotalChargeUsd 0.01 and restart OFF. Wait for completion, retrieve dataset items and the OUTPUT record from the returned storage IDs. Report the actual title and metadata; verify billing_enabled false and confirmed_events 0. Stop on an ambiguous submission instead of starting another run.
+Use Apify MCP to fetch details of bold_borough/link-preview-metadata-extractor-open-graph-json-ld. Run it once on https://example.com/ with memory 128 MB, timeout 60 sec, maxTotalChargeUsd 0.01 and restart OFF. Wait for completion, retrieve dataset items and the OUTPUT record from the returned storage IDs. Report the actual title and metadata; verify billing_enabled false and confirmed_events 0. Stop on an ambiguous submission instead of starting another run.
 
 ## Limits
 - 1–3 URLs, public HTTPS 443, static HTML only; maximum 1 MB response per page.
@@ -37,6 +37,8 @@ Use Apify MCP to fetch details of lightbarrer/public-html-metadata-private-test.
 `python3 verify_example.py` checks the committed input, OUTPUT and dataset consistency without a token, network or credit use.
 
 ## Verification boundary
+The runnable links and MCP call template now target the Rosa Synthesiz Actor. The committed example outputs and timings below remain historical evidence from the earlier B2S deployment; they are not a fresh validation of the Rosa release.
+
 The live end-to-end test used the Codex Apify MCP connection, build 0.2.6 on 16 October 2026. A separate CLI client did not load Apify tools; compatibility with every client is not claimed. No customer adoption, revenue or uptime claim.
 
 ## References
